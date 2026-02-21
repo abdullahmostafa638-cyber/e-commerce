@@ -783,9 +783,10 @@ background-color: #fff;
         gap: 15px;
     }
 
-    .big-card {
+        .big-card {
         margin-bottom: 30px;
         margin: 0;
+        width: auto;
     }
 
     .white {
@@ -877,6 +878,11 @@ background-color: #fff;
     .products1 .owl-nav button.owl-next {
         right: 5px;
     }
+            .big-card {
+        margin-bottom: 30px;
+        margin: 0;
+        width: auto;
+    }
 
 }
 @media (max-width: 576px) {
@@ -903,9 +909,15 @@ background-color: #fff;
     .footer .row {
         text-align: center;
     }
+            .big-card {
+        margin-bottom: 30px;
+        margin: 0;
+        width: auto;
+    }
 
 }
 /* end responsive  */
+
 
 
 
